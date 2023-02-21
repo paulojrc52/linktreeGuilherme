@@ -128,11 +128,13 @@ a {
   border-radius: 50px;
   border: 2px solid white;
   box-shadow: 0 0 20px white;
+  margin-bottom: 6px;
 }
 
 .spanTitle {
   color: black;
   font-weight: 800;
+
 }
 
 .numbers {
@@ -141,6 +143,7 @@ a {
 
 span{
   color: rgb(170, 74, 74);
+  margin: 10px auto;
 }
 
 .agende {
