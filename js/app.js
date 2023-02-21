@@ -18,9 +18,9 @@ const works = [
 const constructorHtml = ({name, price, img, size}) => containerWorks.innerHTML += `
     <div class="boxWorks">
       <img src="${img}" alt="${name}" class="imgWorks">
-      <br>
+      <br><br>
       <span class='spanTitle'>${name}</span>
-      <br>
+      <br><br>
       <span>Valor:</span> <span class='numbers'>R$ ${price.toFixed(2)}</span>
       <br>
       <span>Tamanho:</span> <span class='numbers'>${size}cm</span>

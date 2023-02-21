@@ -51,7 +51,6 @@ h2 {
 
 .containerBox {
   display: flex;
-  max-width: 1000px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -104,7 +103,6 @@ a {
 
 .containerWorks {
   display: flex;
-  max-width: 1000px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -113,38 +111,39 @@ a {
 .boxWorks {
   text-align: center;
   margin: 10px;
-  width: 200px;
+  width: 400px;
   padding: 15px 20px;
   max-width: 600px;
   background: rgb(204, 192, 192);
-  border-radius: 50px;
+  border-radius: 30px;
   font-weight: bold;
   border: 1px solid rgb(123, 123, 155);
   box-shadow: 0 0 20px rgb(161, 151, 151);
 }
 
 .imgWorks {
-  width: 80%;
-  border-radius: 50px;
+  width: 100%;
+  border-radius: 20px;
   border: 2px solid white;
   box-shadow: 0 0 20px white;
-  margin-bottom: 6px;
-}
-
-.spanTitle {
-  color: black;
-  font-weight: 800;
-
-}
-
-.numbers {
-  color: blue;
+  margin-bottom: 8px;
 }
 
 span{
   color: rgb(170, 74, 74);
   margin: 10px auto;
 }
+
+.spanTitle {
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.numbers {
+  color: blue;
+}
+
 
 .agende {
   display: flex;
