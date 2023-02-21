@@ -15,8 +15,7 @@ const works = [
   {name: 'Flash Tattoo(Colorida)', price:350, img: 'images/tatto.jpg', size: 8},
 ]
 
-const constructorHtml = ({name, price, img, size}) => {
-  containerWorks.innerHTML += `
+const constructorHtml = ({name, price, img, size}) => containerWorks.innerHTML += `
     <div class="boxWorks">
       <img src="${img}" alt="${name}" class="imgWorks">
       <br>
@@ -28,6 +27,6 @@ const constructorHtml = ({name, price, img, size}) => {
     </div>
   
   `
-}
+
 
 works.map(constructorHtml)
