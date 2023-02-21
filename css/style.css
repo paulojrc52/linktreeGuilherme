@@ -141,5 +141,29 @@ a {
 
 span{
   color: rgb(170, 74, 74);
+}
 
+.agende {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.agende a {
+  text-align: center;
+  max-width: 300px;
+  margin: 100px auto;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  box-shadow: 0 0 20px white;
+}
+
+.agende img {
+  width: 10px;
+  
 }
