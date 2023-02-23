@@ -11,13 +11,13 @@ body {
 }
 
 .container {
-  padding: 40px;
-  margin: auto;
+  margin: 20px auto;
   display: flex;
+  padding: 20px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1000px;
+  max-width: 1200px;
   text-align: left;
 }
 
@@ -100,14 +100,15 @@ a {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+  max-width: 1200px;
 }
 
 .boxWorks {
   text-align: center;
   margin: 10px;
-  width: 400px;
   padding: 15px 20px;
-  max-width: 600px;
+  max-width: 450px;
   background: rgb(204, 192, 192);
   border-radius: 30px;
   font-weight: bold;
