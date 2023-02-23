@@ -10,6 +10,17 @@ body {
   background-color: rgba(0, 0, 0, .7);
 }
 
+.container {
+  padding: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  text-align: left;
+}
+
 .profile {
   text-align: center;
   margin-top: 20px;
@@ -29,7 +40,7 @@ h1 {
   margin-bottom: 2px;
 }
 
-h2 {
+h2{
   font-size: 16px;
 }
 
@@ -77,15 +88,6 @@ h2 {
 
 .box p {
   margin-top: 10px;
-}
-
-.carrosel {
-  overflow: hidden;
-}
-
-#img {
-  transition: transform 0.5s ease-in-out;
-  transform: translateX(0);
 }
 
 a {
@@ -136,7 +138,6 @@ span{
   color: blue;
 }
 
-
 .agende {
   display: flex;
   list-style: none;
@@ -159,7 +160,46 @@ span{
 
 .agende img {
   width: 10px;
-  
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+}
+
+.box-inf{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
+  max-width: 900;
+  padding: 10px;
+  margin: 20px auto;
+  color: black;
+  background: rgb(204, 192, 192);
+  border-radius: 30px;
+  font-weight: bold;
+  border: 1px solid rgb(123, 123, 155);
+  box-shadow: 0 0 20px rgb(161, 151, 151);
+}
+
+.box-inf p {
+  margin-bottom: 10px;
 }
 
 .footer {

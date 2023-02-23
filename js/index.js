@@ -2,7 +2,7 @@ const containerBoxes = document.querySelector('.containerBox')
 
 const boxes = [
     {title: 'Trabalhos', img: 'images/tatto.jpg', path: './service.html', alt: 'Trabalhos'},
-    {title: 'Atendimento', img: 'images/atendimento.png', path: '#', alt: 'Atendimento'},
+    {title: 'Atendimento', img: 'images/atendimento.png', path: './atendimento.html', alt: 'Atendimento'},
     {title: 'Horários', img: 'images/wpp.png', path: 'https://wa.me/5562984030079', alt: 'Horários'},
     {title: 'Localização', img: '', path: '#', alt: ''},
   ]
