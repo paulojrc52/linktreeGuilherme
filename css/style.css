@@ -13,7 +13,7 @@ body {
 .container {
   margin: 20px auto;
   display: flex;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -106,7 +106,7 @@ a {
 
 .boxWorks {
   text-align: center;
-  margin: 10px;
+  margin: 10px auto;
   padding: 15px 20px;
   max-width: 450px;
   background: rgb(204, 192, 192);
