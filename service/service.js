@@ -7,7 +7,7 @@ const works = [
   {name: 'Polegada(Colorida)', price:1700, img: './imgservice/polegadaC.png', size: 21},
   {name: 'Fechamento Maior(Colorida)', price:3300, img: './imgservice/fechamentomC.png', size: 38},
   {name: 'Membro Passado(Colorida)', price:3700, img: './imgservice/membropC.png', size: 58},
-  {name: 'Fechamento Maior(Preto & Branco)', price:2300, img: './imgservice/fechamentomC.png', size: 38},
+  {name: 'Fechamento Maior(Preto & Branco)', price:2300, img: './imgservice/fechamentomP.png', size: 38},
   {name: 'Fechamento Menor(Preto & Branco)', price:1700, img: './imgservice/fechamentomenorP.png', size: 28},
   {name: 'Fechamento Menor(Colorida)', price:2200, img: './imgservice/fechamentomenorC.png', size: 28},
   {name: 'Polegada(Preto & Branco)', price:1400, img: './imgservice/polegadaP.png', size: 21},
