@@ -31,10 +31,11 @@
       </ul>
     </div>
     <div class="content">
+      <br>
       
       <div class="info">
         <div>
-          <h2>Para seu orçamento, previamente, me diga seu:</h2>
+          <h3>Para seu orçamento, previamente, me diga seu:</h3>
         </div>
         <br>
         <ul>
@@ -103,17 +104,47 @@
         </div> 
       </div>
       <br>
-
-
     </div>
+
+    <form action="https://api.staticforms.xyz/submit" method="post" class="form">
+      <input type="hidden" name="accessKey" value="3fe15a6b-19c7-49fa-aaca-d7833e290619">
+      <div>
+        <label for="inputNome">Primeiro Nome</label>
+        <input type="text" id="inputName" name="name" required maxlength="25" minlength="2">
+        <span></span>
+      </div>
+
+      <div>
+        <label for="inputIdade">Idade</label>
+        <input type="text" id="inputIdade" name="subject" required maxlength="25" minlength="2">
+        <span></span>
+      </div>
+
+      <div>
+        <label for="inputEmail">Endereço de E-mail</label>
+        <input type="text" id="inputEmail" name="email" required maxlength="50" />
+        <span></span>
+      </div>
+
+      <div>
+        <label for="inputPhone">Telefone</label>
+        <input type="text" id="inputPhone" name="phone" required maxlength="50" />
+        <span></span>
+      </div>
+
+      <div>
+        <label for="texteAreaMensagem">Mensagem</label><br>
+        <textarea name="message" id="texteAreaMensagem" required maxlength="300"></textarea>
+        <label></label>
+      </div>
+      <br>
+      <div>
+        <button>Enviar mensagem</button>
+      </div>
+      <input type="hidden" name="redirectTo" value="../index.html">
+    </form>
   </div>
   
-  <br><br>
-  <div class="agende">
-    <a href="https://wa.me/5562984030079">
-      Agende seu Horário <img src="../images/whatsapp.png" alt="">
-    </a>
-  </div>
   <br><br>
   <footer class="footer">
     <a href="https://www.instagram.com/paulojrc2/">

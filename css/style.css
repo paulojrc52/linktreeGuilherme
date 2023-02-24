@@ -141,7 +141,6 @@ span{
 
 .agende {
   display: flex;
-  list-style: none;
   margin-bottom: 0;
   justify-content: center;
 }
@@ -173,7 +172,7 @@ span{
   justify-content: center;
 }
 
-.content h3 {
+.content h3, h4{
   font-size: 16px;
   text-align: center;
 }
@@ -201,6 +200,41 @@ span{
 
 .box-inf p {
   margin-bottom: 10px;
+}
+
+.form {
+  position: relative;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-size: 14px;
+  
+}
+
+.form input, textarea {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0 15px 0;
+}
+
+.form textarea {
+  width: 100%;
+  height: 100px;
+  margin: 5px 0 15px 0;
+}
+
+.form button {  
+  position: absolute;
+  left: 22%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgb(123, 123, 155);
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 0 20px rgb(161, 151, 151);
 }
 
 .footer {
