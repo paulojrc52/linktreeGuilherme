@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chama Shaman - Atendimento</title>
-
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <title>Chama Shaman - Atendimento</title>
 
 </head>
 <body>
@@ -29,6 +29,7 @@
               </a>
           </li>
       </ul>
+      <div class="toast"></div>
     </div>
     <div class="content">
       <br>
@@ -106,8 +107,9 @@
       <br>
     </div>
 
-    <form action="https://api.staticforms.xyz/submit" method="post" class="form">
-      <input type="hidden" name="accessKey" value="3fe15a6b-19c7-49fa-aaca-d7833e290619">
+    <form class="form">
+      <input type="hidden" id="accessKey" name="accessKey" value="3fe15a6b-19c7-49fa-aaca-d7833e290619">
+      
       <div>
         <label for="inputNome">Primeiro Nome</label>
         <input type="text" id="inputName" name="name" required maxlength="25" minlength="2">
@@ -116,7 +118,7 @@
 
       <div>
         <label for="inputIdade">Idade</label>
-        <input type="text" id="inputIdade" name="subject" required maxlength="25" minlength="2">
+        <input type="text" id="inputIdade" name="$age" required maxlength="25" minlength="2">
         <span></span>
       </div>
 
@@ -142,15 +144,23 @@
         <button>Enviar mensagem</button>
       </div>
       <input type="hidden" name="redirectTo" value="../index.html">
+      
     </form>
   </div>
+
+  <div class="retornar">
+    <a href="../index.html">
+     Início <img src="../images/return.png" alt="">
+    </a>
+  </div>
   
-  <br><br>
+  <br>
   <footer class="footer">
     <a href="https://www.instagram.com/paulojrc2/">
       &copy; todos os direitos reservados
     </a>
   </footer>
   
+  <script src="./index.js"></script>
 </body>
 </html>

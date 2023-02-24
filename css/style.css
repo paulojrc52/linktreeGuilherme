@@ -22,6 +22,7 @@ body {
 }
 
 .profile {
+  position: relative;
   text-align: center;
   margin-top: 20px;
 }
@@ -172,7 +173,7 @@ span{
   justify-content: center;
 }
 
-.content h3, h4{
+.content h3, h4 {
   font-size: 16px;
   text-align: center;
 }
@@ -228,13 +229,66 @@ span{
 
 .form button {  
   position: absolute;
-  left: 22%;
+  left: 22.5%;
   padding: 10px;
   background-color: white;
   border: 1px solid rgb(123, 123, 155);
   border-radius: 10px;
   font-size: 18px;
   box-shadow: 0 0 20px rgb(161, 151, 151);
+}
+
+.toast{
+  display: inline-block;
+  position: absolute;
+  left: -1000px;
+  bottom: -20px;
+  background: rgb(194, 247, 198);
+  border: 1px solid rgb(0, 255, 42);
+  border-radius: 25px;
+  padding: 15px;
+  color: black;
+  transition: all 600ms ease;
+}
+
+.toast.visible {
+  left: 50px;
+}
+
+.error {
+  display: block;
+  position: absolute;
+  left: 50px;
+  bottom: -60px;
+  margin: 40px;
+  background: rgb(207, 153, 153);
+  border: 1px solid rgb(255, 30, 0);
+  border-radius: 25px;
+  padding: 15px;
+  color: black;
+  transition: all 600ms ease;
+}
+.retornar {
+  display: flex;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.retornar a {
+  text-align: center;
+  max-width: 300px;
+  margin: 200px auto;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  box-shadow: 0 0 20px white;
+}
+
+.retornar img {
+  width: 10px;
 }
 
 .footer {

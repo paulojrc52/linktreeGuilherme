@@ -21,17 +21,18 @@ const indexMain = () => {
       `
     }
 
-  containerBoxes.innerHTML += `
-    <div class="box">
-      <a href=${path}>
-        <img src=${img} alt=${alt} class="boxImg">
-        <p>${title}</p>
-      </a>
-    </div>
-  ` 
-} 
+    containerBoxes.innerHTML += `
+      <div class="box">
+        <a href=${path}>
+          <img src=${img} alt=${alt} class="boxImg">
+          <p>${title}</p>
+        </a>
+      </div>
+    ` 
+  } 
 
   boxes.map(constructorHtmlWorksIndex)
+
 }
 
 indexMain()
