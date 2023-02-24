@@ -1,18 +1,18 @@
 const containerWorks = document.querySelector('.containerWorks')
 
 const works = [
-  {name: 'Meia Polegada(Colorida)', price:1200, img: '../images/meip(c).png', size: 13},
-  {name: 'Meia Polegada(Preto & Branco)', price:1000, img: '../images/meiap(p-b).png', size: 13},
-  {name: 'Membro Passado(Preto & Branco)', price:3300, img: '../images/membrop(p-b).png', size: 53},
-  {name: 'Polegada(Colorida)', price:1700, img: '../images/polegada(c).png', size: 21},
-  {name: 'Fechamento Maior(Colorida)', price:3300, img: '../images/fechamentom(c).png', size: 38},
-  {name: 'Membro Passado(Colorida)', price:3700, img: '../images/membrop(c).png', size: 58},
-  {name: 'Fechamento Maior(Preto & Branco)', price:2300, img: '../images/fechamentom(c).png', size: 38},
-  {name: 'Fechamento Menor(Preto & Branco)', price:1700, img: '../images/fechamentomenor(p-b).png', size: 28},
-  {name: 'Fechamento Menor(Colorida)', price:2200, img: '../images/fechamentomenor(c).png', size: 28},
-  {name: 'Polegada(Preto & Branco)', price:1400, img: '../images/polegada(p-b).png', size: 21},
-  {name: 'Flash Tattoo(Preto & Branco)', price:500, img: '../images/flash(p-b).png', size: 8},
-  {name: 'Flash Tattoo(Colorida)', price:700, img: '../images/flash(c).png', size: 8},
+  {name: 'Meia Polegada(Colorida)', price:1200, img: './imgservice/meip(c).png', size: 13},
+  {name: 'Meia Polegada(Preto & Branco)', price:1000, img: './imgservice/meiap(p-b).png', size: 13},
+  {name: 'Membro Passado(Preto & Branco)', price:3300, img: './imgservice/membrop(p-b).png', size: 53},
+  {name: 'Polegada(Colorida)', price:1700, img: './imgservice/polegada(c).png', size: 21},
+  {name: 'Fechamento Maior(Colorida)', price:3300, img: './imgservice/fechamentom(c).png', size: 38},
+  {name: 'Membro Passado(Colorida)', price:3700, img: './imgservice/membrop(c).png', size: 58},
+  {name: 'Fechamento Maior(Preto & Branco)', price:2300, img: './imgservice/fechamentom(c).png', size: 38},
+  {name: 'Fechamento Menor(Preto & Branco)', price:1700, img: './imgservice/fechamentomenor(p-b).png', size: 28},
+  {name: 'Fechamento Menor(Colorida)', price:2200, img: './imgservice/fechamentomenor(c).png', size: 28},
+  {name: 'Polegada(Preto & Branco)', price:1400, img: './imgservice/polegada(p-b).png', size: 21},
+  {name: 'Flash Tattoo(Preto & Branco)', price:500, img: './imgservice/flash(p-b).png', size: 8},
+  {name: 'Flash Tattoo(Colorida)', price:700, img: './imgservice/flash(c).png', size: 8},
 ]
 
 const indexWorks = () => {
