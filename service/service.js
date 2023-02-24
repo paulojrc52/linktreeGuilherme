@@ -16,19 +16,18 @@ const works = [
 ]
 
 const indexWorks = () => {
-  const constructorHtmlWorks = ({name, price, img, size}) => containerWorks.innerHTML += `
-    <div class="boxWorks">
-      <img src="${img}" alt="${name}" class="imgWorks">
-      <br><br>
-      <span class='spanTitle'>${name}</span>
-      <br><br>
-      <span>Valor:</span> <span class='numbers'>R$ ${price},00</span>
-      <br>
-      <span>Tamanho:</span> <span class='numbers'>${size}cm</span>
-    </div>
-  
-  `
-  works.map(constructorHtmlWorks)
+  works.map(({name, price, img, size}) => containerWorks.innerHTML += `
+  <div class="boxWorks">
+    <img src="${img}" alt="${name}" class="imgWorks">
+    <br><br>
+    <span class='spanTitle'>${name}</span>
+    <br><br>
+    <span>Valor:</span> <span class='numbers'>R$ ${price},00</span>
+    <br>
+    <span>Tamanho:</span> <span class='numbers'>${size}cm</span>
+  </div>
+
+`)
 }
 
 indexWorks()
