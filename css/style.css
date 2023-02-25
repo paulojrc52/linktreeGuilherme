@@ -71,10 +71,11 @@ h2{
 }
 
 .box {
+  position: relative;
   text-align: center;
   margin: 10px;
   width: 200px;
-  height: 200px;
+  height: 250px;
   padding: 15px 20px;
   max-width: 600px;
   background: rgb(204, 192, 192);
@@ -85,14 +86,15 @@ h2{
 }
 
 .boxImg {
-  width: 70%;
-  border-radius: 50px;
-  border: 2px solid white;
+  width: 150px;
+  height: 200px;
+  border-radius: 39%;
+  border: 3px solid white;
   box-shadow: 0 0 20px white;
 }
 
 .box p {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 a {
