@@ -38,6 +38,7 @@ form.addEventListener('submit',(event) => {
     const url = 'https://api.staticforms.xyz/submit'
 
     const accessKey = document.querySelector('#accessKey').value
+    const subject = document.querySelector("#subject")
     const name = document.querySelector('#inputName').value
     const age = document.querySelector('#inputIdade').value
     const email = document.querySelector('#inputEmail').value
@@ -52,6 +53,7 @@ form.addEventListener('submit',(event) => {
         },
         body: JSON.stringify({
             accessKey: accessKey,
+            subject: subject,
             name: name,
             $age: age,
             email: email,
