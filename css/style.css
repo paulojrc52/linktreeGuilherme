@@ -27,6 +27,10 @@ body {
   margin-top: 20px;
 }
 
+.profile a {
+  color: rgb(235, 174, 7);
+}
+
 .avatar {
   width: 150px;
   border-radius: 50px;
