@@ -38,7 +38,7 @@ form.addEventListener('submit',(event) => {
     const url = 'https://api.staticforms.xyz/submit'
 
     const accessKey = document.querySelector('#accessKey').value
-    const subject = document.querySelector("#subject")
+    const subject = document.querySelector("#subject").value
     const name = document.querySelector('#inputName').value
     const age = document.querySelector('#inputIdade').value
     const email = document.querySelector('#inputEmail').value
