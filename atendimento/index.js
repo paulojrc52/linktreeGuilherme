@@ -4,7 +4,7 @@ const toast = document.querySelector('.toast')
 const isToast = (response) => {
      
     if(response) {
-        toast.textContent = 'Dados enviados com sucesso!'
+        toast.textContent = 'Mensagem enviada com sucesso!'
         toast.classList.remove('error')
         toast.classList.add('visible')
         scrollTo({
