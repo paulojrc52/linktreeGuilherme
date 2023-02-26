@@ -3,7 +3,7 @@ const containerWorks = document.querySelector('.containerWorks')
 
 const boxes = [
   {title: 'Trabalhos', img: './service/imgservice/polegadaC.PNG', path: './service/index.html', alt: 'Trabalhos'},
-  {title: 'Método de Orçamento', img: 'images/atendimento.png', path: './atendimento/index.html', alt: 'Atendimento'},
+  {title: 'Método de Atendimento', img: 'images/atendimento.png', path: './atendimento/index.html', alt: 'Atendimento'},
   {title: 'Localização', img: '', path: '#', alt: ''},
 ]
 
