@@ -74,7 +74,7 @@ h2{
   position: relative;
   text-align: center;
   margin: 10px 20px;
-  width: 200px;
+  width: 220px;
   height: 270px;
   padding: 20px 20px;
   max-width: 400px;
@@ -86,7 +86,7 @@ h2{
 }
 
 .boxImg {
-  width: 150px;
+  width: 170px;
   height: 200px;
   border-radius: 39%;
   border: 3px solid white;
